@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    background-color: azure;
+}
+
+.loimg{
+    width: 40px;
+}
+.ico{
+    width: 30px;
+}
+ul li {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li:hover {
+    background: #908c9b;
+}
+
+ul li:hover ul {
+    display: block;
+    
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+.list-group-item a:hover{
+    display: block;
+    background-color: rgb(174, 27, 108);
+}
+#sidebarToggleBtn {
+    display: none;
+}
+
+#sidebarToggleBtn.show {
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+.wel{
+border:5px rgb(194, 136, 130);
+margin: 0%;
+padding: 0px;
+}
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.round{
+    border-radius: 25px;
+        background: #767873;
+        padding: 5px;
+        width: 200px;
+        height: 150px;
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    }
+    .card:hover{
+        background-color: lightblue;
+    }
+    .card{
+        width: 400px;
+        height: 500px;
+    }
+    .newpro{
+        margin: 0;
+        padding:0;
+    }
+    .new{
+        text-align: center;
+        color: chocolate;
+        padding-top: 4px;
+    }
+   
