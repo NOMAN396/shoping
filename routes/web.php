@@ -4,6 +4,8 @@ use App\Http\Controllers\Backend\AuthController as AuthController;
 use App\Http\Controllers\Backend\UserController as UserController;
 use App\Http\Controllers\Backend\DashboardController as dashboard;
 use App\Http\Controllers\Backend\PermissionController as permission;
+use App\Http\Controllers\Backend\CategoryController as categories;
+
 
 
 
@@ -19,6 +21,7 @@ Route::get('/logout', [AuthController::class,'singOut'])->name('logOut');
 Route::middleware(['checkrole'])->group(function(){
     Route::get('/dashboard', [dashboard::class,'index'])->name('dashboard');
     Route::resource('/user', UserController::class);
+    Route::resource('/categories', categories::class);
 });
 
 

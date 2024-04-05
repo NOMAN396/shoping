@@ -1,0 +1,13 @@
+.bg {
+    background-color: #04AA6D;
+    color: rgb(236, 235, 235);
+  }
+  
+  table, td, th {  
+    border: 1px solid #1f1a1a;
+    text-align: left; 
+    color: beige;
+  }
+  th, td {
+    padding: 15px;
+  }

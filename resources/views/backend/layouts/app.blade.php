@@ -182,9 +182,9 @@
               </a>
             </li>
             <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <a href="{{ route('categories.index')}}" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons mdi mdi-window-maximize"></i>
-                <div data-i18n="Layouts">Layouts</div>
+                <div data-i18n="Layouts">Category</div>
               </a>
             </li>
 

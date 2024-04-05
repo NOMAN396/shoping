@@ -69,7 +69,7 @@ padding: 0px;
         background-color: lightblue;
     }
     .card{
-        width: 400px;
+        width: 350px;
         height: 500px;
     }
     .newpro{
@@ -81,4 +81,75 @@ padding: 0px;
         color: chocolate;
         padding-top: 4px;
     }
-   
+   .homdecoration{
+    margin-top: 3rem;
+   }
+   .decoration{
+    text-decoration-color: cadetblue;
+    color: blue;
+   }
+.carousel-content {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 5px;
+font-size: 30px;
+text-align: center;
+width: 300px;
+        }
+.hcard{
+    width: 300px;
+}
+.m{
+ color:yellow;
+font-weight: bold;
+}
+.n{
+color: powderblue;
+font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(2, 41, 83);
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  background-color:blueviolet;
+  border-radius: 15px;
+}
+.flex-container a:hover{
+background-color: #04AA6D;
+transition-duration: 0.4s;
+text-decoration: none;
+margin: 3px;
+padding: 3px;
+border-radius: 12px;
+}
+.flex-container a{
+    text-decoration: none;
+    padding: 2px;
+}
+.life{
+    width: 350px;
+}
+div.card.life{
+    width: 300px;
+}

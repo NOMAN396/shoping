@@ -70,19 +70,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- <button id="sidebarToggleBtn" class="d-lg-none">Toggle Sidebar</button> -->
+ <button id="sidebarToggleBtn" class="d-lg-none">Toggle Sidebar</button>
 
-<div id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white ">
+<div id=""class="bg-white">
   <div class="row">
-    <div class="position-sticky col-sm-2 col-lg-2 ">
-                      <div class="list-group list-group-flush mx-2 mt-4">
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action py-2 ripple"
-                          aria-current="true"
-                        >
-                          <span class="hober">Female</span>
-                        </a>  
+    <div id="sidebarMenu"class="position-sticky col-sm-2 col-lg-2 d-lg-block sidebar collapse">
+      <div class="list-group list-group-flush mx-2 mt-4">
+        <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+          <span class="hober">Female</span>
+         </a>  
                         <a href="#" class="list-group-item list-group-item-action py-2 ripple">
                           <span class="hober">Female</span>
                         </a>
@@ -260,14 +256,14 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    </button> -->
+    <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+    </button> -->
   </div>
 </section>
 
@@ -329,12 +325,296 @@ document.addEventListener("DOMContentLoaded", function() {
  </div>
 </section>
 
-<section>
-  
+<section class="homdecoration">
+  <h1 class="decoration">Home & Decoration</h1>
+<div class="row py-5 col-12 ">
+  <div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6 class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="">New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6 class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6>New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6 class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6>New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6 class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6>New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6  class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6  class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="">New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-2">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active btn btn-primary">
+        <h6 class="m">Los Angeles</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="n">Chicago</h6>
+    </div>
+    <div class="carousel-item btn btn-primary">
+        <h6 class="">New York</h6>
+    </div>
+  </div>
+</div>
+</div>
+</div>                
+</section>
+<section class="homedecoration">
+ <div class="grid-container">
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images5.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images6.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images7.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>  
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images8.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>
+  <div class="grid-item">
+     <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images9.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+  </div>
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images14.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>  
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images13.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>
+  <div class="grid-item"> <div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images12.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>
+  <div class="grid-item"><div class="card hcard">
+    <img src="{{asset('public/assets/img/homeimage/images5.jpg')}}" alt="a snow-capped mountain range"/>
+    <div class="card-body">
+      <h2 class="card-title">Wonderfull</h2>
+      <p class="card-text">You make your choice</p>
+      <a href="#" class="btn btn-secondary">Learn more</a>
+    </div>
+  </div>
+</div>  
+</div>
 </section>
 
+<section>
+  <h1 class="decoration py-5">Life Style-></h1>
+<div class="flex-container">
+  <div><a class="m" href="">Saree</a></div>
+  <div><a class="n" href="">Watch</a></div>
+  <div><a class="m" href="">Saree</a></div>  
+  <div><a  class="n" href="">Watch</a></div>
+  <div ><a class="m"  href="">Saree</a></div>
+  <div ><a class="n" href="">Watch</a></div>
+  <div ><a class="m" href="">Saree</a></div>
+  <div><a  class="n" href="">Watch</a></div>
+  <div ><a class="m" href="">Saree</a></div>
+  <div ><a class="n" href="">Watch</a></div>
+  <div ><a class="m" href="">Saree</a></div>
 </div>
-</div>
+</section>
 
+<section>
+  <div class="row col-md-12">
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images11.jpg')}}" class="card-img-top" alt="Los Angeles Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images12.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images14.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images15.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="row col-md-12">
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images6.jpg')}}" class="card-img-top" alt="Los Angeles Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images7.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images8.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card life">
+      <img src="{{asset('public/assets/img/homeimage/images9.jpg')}}" class="card-img-top" alt="Skyscrapers">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a longer card with supporting text below as a natural lead-in 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 </body>
 </html>
